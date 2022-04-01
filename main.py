@@ -14,9 +14,9 @@ async def on_message(message):
     if message.content.startswith('-mon'):
           embedVar = discord.Embed(title="Day of the Week", description="MONDAY", color=0x94C973)
           embedVar.add_field(name="Advanced Systems Integration and Architecture", value="10:00 AM -12:00 PM", inline=False)
-          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](https://meet.google.com/urh-jojq-bfj)", inline=False)
+          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](YOUR_LINK)", inline=False)
           embedVar.add_field(name="Analytics Techniques and Tools", value="1:00 PM - 3:00PM", inline=False)
-          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](https://meet.google.com/npo-dpnn-bnt)", inline=False)
+          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](YOUR_LINK)", inline=False)
           embedVar.set_thumbnail(url="https://media.discordapp.net/attachments/900360306310676540/939030971062313061/202-2022004_flexible-schedule-icon-v1-flexible-schedule-icon-hd-removebg-preview.png")
           embedVar.set_image(url="https://media.discordapp.net/attachments/900360306310676540/939366911773401118/1.png?width=991&height=701")
           await message.channel.send(embed=embedVar)
@@ -24,7 +24,7 @@ async def on_message(message):
     elif message.content.startswith('-tue'):
           embedVar = discord.Embed(title="Day of the Week", description="TUESDAY", color=0x94C973)
           embedVar.add_field(name="Analytics Techniques and Tools", value="7:00 AM -10:00 AM", inline=False)
-          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](https://meet.google.com/npo-dpnn-bnt)", inline=False)
+          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](YOUR_LINK)", inline=False)
           embedVar.set_thumbnail(url="https://media.discordapp.net/attachments/900360306310676540/939030971062313061/202-2022004_flexible-schedule-icon-v1-flexible-schedule-icon-hd-removebg-preview.png")
           embedVar.set_image(url="https://media.discordapp.net/attachments/900360306310676540/939366912079568927/2.png?width=881&height=623")
           await message.channel.send(embed=embedVar)
@@ -32,9 +32,9 @@ async def on_message(message):
     elif message.content.startswith('-wed'):
           embedVar = discord.Embed(title="Day of the Week", description="WEDNESDAY", color=0x94C973)
           embedVar.add_field(name="Information Assurance and Security", value="9:00 AM - 12:00PM", inline=False)
-          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](https://meet.google.com/esq-dify-aha)", inline=False)
+          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](YOUR_LINK)", inline=False)
           embedVar.add_field(name="Capstone Project 1", value="3:00 PM - 6:00PM", inline=False)
-          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](https://meet.google.com/hfd-rruc-bqz)", inline=False)
+          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](YOUR_LINK)", inline=False)
           embedVar.set_thumbnail(url="https://media.discordapp.net/attachments/900360306310676540/939030971062313061/202-2022004_flexible-schedule-icon-v1-flexible-schedule-icon-hd-removebg-preview.png")
           embedVar.set_image(url="https://media.discordapp.net/attachments/900360306310676540/939366912394145812/3.png?width=881&height=623")
           await message.channel.send(embed=embedVar)
@@ -42,7 +42,7 @@ async def on_message(message):
     elif message.content.startswith('-thu'):
           embedVar = discord.Embed(title="Day of the Week", description="THURSDAY", color=0x94C973)
           embedVar.add_field(name="Advanced Systems Integration and Architecture", value="10:00 AM - 1:00PM", inline=False)
-          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](https://meet.google.com/urh-jojq-bfj)", inline=False)
+          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](YOUR_LINK)", inline=False)
           embedVar.set_thumbnail(url="https://media.discordapp.net/attachments/900360306310676540/939030971062313061/202-2022004_flexible-schedule-icon-v1-flexible-schedule-icon-hd-removebg-preview.png")
           embedVar.set_image(url="https://media.discordapp.net/attachments/900360306310676540/939366912683569212/4.png?width=881&height=623")
           await message.channel.send(embed=embedVar)
@@ -50,7 +50,7 @@ async def on_message(message):
     elif message.content.startswith('-fri'):
           embedVar = discord.Embed(title="Day of the Week", description="FRIDAY", color=0x94C973)
           embedVar.add_field(name="	Information Assurance and Security", value="10:00 AM - 12:00 PM", inline=False)
-          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](https://meet.google.com/esq-dify-aha)", inline=False)
+          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](YOUR_LINK)", inline=False)
           embedVar.add_field(name="Human-Computer Interaction", value="1:00 PM - 4:00 PM", inline=False)
           embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here]()", inline=False)
           embedVar.set_thumbnail(url="https://media.discordapp.net/attachments/900360306310676540/939030971062313061/202-2022004_flexible-schedule-icon-v1-flexible-schedule-icon-hd-removebg-preview.png")
@@ -60,9 +60,9 @@ async def on_message(message):
     elif message.content.startswith('-sat'):
           embedVar = discord.Embed(title="Day of the Week", description="SATURDAY", color=0x94C973)
           embedVar.add_field(name="Fundamentals of Enterprise Data Management", value="7:00 AM - 12:00PM", inline=False)
-          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](https://meet.google.com/dgd-rwmc-obm)", inline=False)
+          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](YOUR_LINK)", inline=False)
           embedVar.add_field(name="IT Project Management", value="2:00 AM - 5:00 PM", inline=False)
-          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](https://meet.google.com/zib-rtmi-gte)", inline=False)
+          embedVar.add_field(name="Gmeet Link ⬇", value="[Click Here](YOUR_LINK)", inline=False)
           embedVar.set_thumbnail(url="https://media.discordapp.net/attachments/900360306310676540/939030971062313061/202-2022004_flexible-schedule-icon-v1-flexible-schedule-icon-hd-removebg-preview.png")
           embedVar.set_image(url="https://media.discordapp.net/attachments/900360306310676540/939368799289868388/2nd_Sem_Classes_2.png?width=991&height=701")
           await message.channel.send(embed=embedVar)
@@ -75,7 +75,7 @@ async def on_message(message):
     
     elif message.content.startswith('-gclass'):
           embedVar = discord.Embed(title="Google Classroom", description="", color=0x94C973)
-          embedVar.add_field(name="Link Below", value="[Click Here](https://classroom.google.com/u/0/h)", inline=False)
+          embedVar.add_field(name="Link Below", value="[Click Here](YOUR_LINK)", inline=False)
           embedVar.set_thumbnail(url="https://media.discordapp.net/attachments/900360306310676540/939030971062313061/202-2022004_flexible-schedule-icon-v1-flexible-schedule-icon-hd-removebg-preview.png")
           embedVar.set_image(url="https://logos-world.net/wp-content/uploads/2021/08/Google-Classroom-Logo-2014-2016.png")
           await message.channel.send(embed=embedVar)
@@ -115,13 +115,13 @@ async def on_message(message):
           await message.channel.send(embed=embedVar)
  ###-------------------------------help------------------------------------------------------### 
     elif message.content.startswith('-lloyd'):
-          embedVar = discord.Embed(title="", description="[ADD TO SERVER](https://discord.com/api/oauth2/authorize?client_id=939007246023655424&permissions=395137021952&scope=bot)", color=0x94C973)
+          embedVar = discord.Embed(title="", description="[ADD TO SERVER](YOUR_LINK)", color=0x94C973)
           embedVar.set_image(url="https://cdn.discordapp.com/attachments/877724467177062454/949460326045343815/unknown-removebg-preview.png")
           embedVar.set_author(name="Lloyd #8284", icon_url="https://cdn.discordapp.com/attachments/877724467177062454/949460326045343815/unknown-removebg-preview.png")
           await message.channel.send(embed=embedVar)
       
     elif message.content.startswith('-robolamb'):
-          embedVar = discord.Embed(title="", description="[ADD TO SERVER](https://discord.com/api/oauth2/authorize?client_id=877398820051378217&permissions=377957173248&scope=bot)", color=0x94C973)
+          embedVar = discord.Embed(title="", description="[ADD TO SERVER](YOUR_LINK)", color=0x94C973)
           embedVar.set_author(name="Robolamb #8284", icon_url="https://cdn.discordapp.com/attachments/877724467177062454/949455991555113050/Presentation2-removebg-preview.png")
           embedVar.set_image(url="https://cdn.discordapp.com/attachments/877724467177062454/949455991555113050/Presentation2-removebg-preview.png")
           await message.channel.send(embed=embedVar)
